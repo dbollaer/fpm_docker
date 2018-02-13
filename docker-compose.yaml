@@ -1,0 +1,8 @@
+version: '2'
+services:
+    aya_front:
+      image: .
+
+      volumes:
+        - "../../oasis_error_page:/usr/share/oasis_error_page"
+

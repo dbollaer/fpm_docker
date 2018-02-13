@@ -34,5 +34,5 @@ RUN apt-get update && apt-get install -y \
 RUN gem install ffi
 RUN gem install fpm -v 1.9.3
 
-# Set /var/www/ in a data volume
-VOLUME /var/www/
+# Set /usr/share/oasis_error_page in a data volume
+VOLUME /usr/share/oasis_error_page
