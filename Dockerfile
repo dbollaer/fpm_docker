@@ -17,6 +17,8 @@ ENV FPM_DEPS \
 	    unzip \
 	    devscripts \
 	    build-essential \
+	    openjdk-7-jdk \
+	    ant \
 	    lintian \
 	    ruby-dev \
 	    rubygems \

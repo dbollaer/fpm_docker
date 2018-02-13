@@ -1,8 +1,7 @@
 version: '2'
 services:
     aya_front:
-      image: .
-
+      image: dbollaer/fpm_docker
       volumes:
         - "../../oasis_error_page:/usr/share/oasis_error_page"
 
